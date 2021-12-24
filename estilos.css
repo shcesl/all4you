@@ -1,0 +1,1823 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+.contenedor {
+    width: 100%;
+    max-width: 1170px;
+    margin: auto;
+}
+
+/* Cabezera */
+header {
+    width: 100%;
+    height: 100%;
+    background-color: rgb(0, 0, 0);
+}
+
+.logo {
+    padding: 14px;
+}
+
+.logo img {
+    width: 350px;
+    display: block;
+    margin: auto;
+    
+    color: #1c1d3c;
+    padding-bottom: 10px;
+    border-bottom: 1px solid #a2a2a2;
+}
+
+.menu {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+
+    justify-content: space-between;
+    max-width: 430px;
+    margin: auto;
+}
+
+.menu a {
+    text-decoration: none;
+    color: lavender;
+    font-size: 17px;
+    margin-bottom: 20px;
+}
+
+/* inicio all4you */
+
+.banner {
+    width: 100%;
+    
+    background-image: url(imagenes/portada/portada\ sola.png);
+    background-position: center;
+    background-size: cover;
+    max-width: 100%;
+}
+
+.banner > div {
+    width: 100%;
+    height: 100%;
+    background-color: rgba(67, 70, 62, 0.1);
+}
+
+.llamada-accion > img {
+width: 100%;
+   background-attachment: fixed;
+   padding-left: 50px;
+   max-width: 1000px;
+   padding-right: 50px;
+   margin-bottom: 400px;
+}
+
+.llamada-accion {
+    text-align: left;
+    display: flex;
+    flex-flow: column wrap;
+    padding-top: 100px;
+    height: 100%;
+    width: 100%;
+}
+
+.llamada-accion h2 {
+    font-size: 100px;
+    color:rgb(255, 255, 255);
+    width: 800px;
+    height: 150px;
+    padding-left: 80px;
+    padding-right: 450px 0;
+  
+    max-width: 470px;
+    padding-top: 15px;
+    
+    
+}
+
+.llamada-accion p {
+   font-size: 20px;
+   color: rgb(255, 255, 255);
+   margin-top: 30px;
+   padding-right: 50px;
+   padding-left: 50px;
+   margin-bottom: 455px;
+}
+
+/* ¿qué es all4you? */
+
+.bienvenida {
+    width: 100%;
+    background-color: rgb(6, 6, 6);
+    color: snow;
+    text-align: left;
+    margin-bottom: 5px;
+    padding-bottom: 130px;
+    padding-left: 50px;
+    padding-right: 50px;
+}
+
+.bienvenida h3 {
+    font-size: 73px;
+    
+    padding-bottom: 55px;
+    color: lightskyblue;
+}
+
+.bienvenida p {
+    font-size: 25px;
+    padding-bottom: 25px;
+    line-height: 1.7em;
+    max-width: 700px;
+    color: lightyellow;
+}
+
+.contenedor a {
+    color: lightblue;
+    font-size: 17px;
+}
+
+/* recomendación del mes */
+
+.recomendacion {
+    padding-bottom: 80px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    background-image: url(imagenes/portadasdifuminadas/allin-grady-fondo.png);
+    background-position: center;
+    background-size: cover;
+}
+
+.recomendacion > .contenedor {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+
+}.foto-all4you {
+    width: 100%;
+    max-width: 500px;
+    padding-left: 80px;
+    height: 100%;
+    margin-top: 80px;
+}
+
+.foto-all4you img {
+    width: 350px;
+    border-radius: 7px;
+    box-shadow: 0 15px 35px #000000a1;
+    transition: all aese 0.4s;
+}
+
+.cancion-semana {
+    text-align: center;
+    padding: 15px 0;
+    max-width: 670px;
+    min-width: 450px;
+}
+
+.cancion-semana h2 {
+    font-size: 30px;
+    padding-top: 50px;
+    padding-bottom: 20px;
+    color: rgb(0, 0, 0);
+    border-bottom: 2px solid black;
+    text-align: center;
+}
+
+.cancion-semana p:nth-child(2) {
+    font-size: 30px;
+    color: rgb(0, 0, 0);
+    padding-top: 50px;
+    padding-bottom: 20px;
+    font-weight: bold;
+    text-shadow: 1px 1px 1px black;
+    
+}
+
+.cancion-semana p:nth-child(3) {
+    font-size: 20px;
+    padding-bottom: 30px; 
+}
+
+.cancion-semana .audio {
+    color: lightcyan;
+    
+}
+
+@media all and (min-width:949px) {
+    .recomendacion {
+        padding-top: 80px;
+
+    }
+    .foto-all4you {
+        margin-top: 10px;
+        
+    }
+    .cancion-semana {
+        text-align: left;
+    }
+
+}
+
+/* ahora, ¿a dónde ir? */
+.sectiondondeir {
+    padding-left: 50px;
+    padding-right: 50px;
+    background-color: #000000;
+    margin-bottom: 5px;
+}
+
+.dondeIr {
+    padding-top: 100px;
+    padding-bottom: 30px;
+    padding-left: 45px;
+}
+
+.dondeIr h3{
+    color: #c3cb71;
+    font-size: 60px;
+    text-align: center;
+}
+
+.listaSecciones {
+    background-color: rgb(0, 0, 0);
+    padding-bottom: 50px;
+    padding-top: 50px;
+    text-align: center;
+}
+
+.listaSecciones h4 {
+    color: rgb(104, 192, 216);
+    font-size: 50px;
+    text-align: center;
+
+}
+
+.listaSecciones p {
+    font-size: 25px;
+    color: rgb(255, 219, 169);
+    padding-top: 15px;
+    padding-left: 15px;
+    line-height: 1.5em;
+}
+
+.listaSecciones a {
+    font-size: 20px;
+}
+
+.socialsInicio {
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 1rem 0 3rem 0;
+}
+
+.socialsInicio li {
+    margin: 0 40px;
+    padding-top: 20px;
+}
+
+.socialsInicio a {
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+}
+
+.socialsInicio a i {
+    font-size: 40px;
+    transition: color .1s ease;
+}
+
+.socialsInicio a:hover i {
+    color: rgb(255, 239, 57);
+} 
+
+
+/* footer */
+
+footer {
+    background: #111;
+    height: auto;
+    width: 100%;
+    padding-top: 40px;
+    color: rgb(255, 255, 255);
+}
+
+.footer-content {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+}
+
+.footer-content h3 {
+    font-size: 35px;
+    color: rgb(255, 255, 255);
+    margin-bottom: 10px;
+}
+
+.footer-content p {
+    font-size: 20px;
+    max-width: 500px;
+    margin: 10px auto;
+    color: tan;
+    margin-bottom: 30px;
+}
+
+.socials {
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 1rem 0 3rem 0;
+}
+
+.socials li {
+    margin: 0 20px;
+}
+
+.socials a {
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+}
+
+.socials a i {
+    font-size: 35px;
+    transition: color .1s ease;
+}
+
+.socials a:hover i {
+    color: cornflowerblue;
+} 
+
+.footer-bottom {
+    background: black;
+    width: 100%;
+    padding: 10px 0;
+    text-align: center;
+}
+
+.footer-bottom p {
+    font-size: 14px;
+    word-spacing: 2px;
+}
+
+
+/* NOSOTROS */
+.banner-nosotros {
+    background-color: #000000;
+    width: 100%;
+    height: 1000px;
+}
+
+.nosotros {
+    padding-top: 100px;
+    
+    
+}
+
+.nosotros h2 {
+    background: #ccc;
+    background: linear-gradient(90deg, #d2ff77, #97fee6);
+    font-size: 100px;
+    text-align: center;
+
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+}
+
+.nosotros p {
+    font-size: 25px;
+    color: goldenrod;
+    padding-left: 25px;
+    padding-right: 25px;
+    padding-top: 100px;
+    text-align: center;
+}
+
+.nosotros a {
+    font-size: 25px;
+    color: rgb(254, 194, 42);
+}
+
+.redes-socios {
+    width: 100%;
+    height: 200px;
+    background-color: black;
+}
+
+.redes-socios h3 {
+    font-size: 30px;
+    color: blanchedalmond;
+    margin-bottom: 50px;
+    padding-left: 50px;
+    padding-top: 50px;
+}
+
+.redes-socios p {
+    font-size: 40px;
+    color: rgb(255, 255, 255);
+    padding-left: 90px;
+}
+
+.redes-socios a {
+    font-size: 30px;
+    margin-bottom: 50px;
+}
+
+/* MÚSICA */
+.banner-musica {
+    width: 100%;
+    height: 100%;
+    background-color: rgb(0, 0, 0);
+    background-position: center;
+    background-size: cover;
+}
+
+.fondodif {
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.3);
+}
+
+.llamada-accion-musica {
+    padding-top: 100px;
+    height: 100%;
+}
+
+.llamada-accion-musica h2 {
+    background: #ccc;
+    background: linear-gradient(90deg, #007cf0, #10fef6);
+    font-size: 130px;
+    text-align: center;
+    padding-left: 10px;
+    padding-right: 10px;
+
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+}
+
+.llamada-accion-musica p {
+    font-size: 25px;
+    color: rgb(242, 242, 150);
+    margin-top: 10px;
+    padding-right: 50px;
+    padding-left: 50px;
+    padding-bottom: 200px;
+    line-height: 1.5em;
+    text-align: center;
+}
+
+/* lista de bandas */
+
+.bandas {
+    width: 100%;
+    height: 100%;
+    background-color: black;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+.bandas h3 {
+    font-size: 50px;
+    color: rgb(255, 255, 255);
+   padding-top: 114px;
+   padding-left: 50px;
+   margin-bottom: 20px;
+}
+
+.bandas p {
+    font-size: 22px;
+    color: rgb(254, 231, 197);
+    padding-left: 50px;
+    margin-bottom: 80px;
+    padding-right: 50px;
+    line-height: 1.5em;
+}
+
+.lista-bandas {
+    background-color: rgb(0, 0, 0);
+    padding-bottom: 110px;
+}
+
+.lista-bandas .widget {
+    color: rgb(176, 249, 246);
+    font-size: 40px;
+    padding: 13px;
+    padding-left: 130px;
+    
+}
+
+.lista-bandas a {
+    font-size: 30px;
+    color: rgb(255, 255, 255);
+    text-decoration-line: none;
+}
+
+/* sección playlist */
+
+.apartado-playlist {
+    width: 100%;
+    height: 100%;
+    padding-top: 77px;
+    padding-bottom: 65px;
+    background-color: rgb(121, 121, 121);
+}
+
+.apartado-playlist h3 {
+    font-size: 35px;
+    padding-bottom: 35px;
+    padding-left: 50px;
+    border-bottom: 3px solid #000000;
+}
+
+.apartado-playlist p {
+    font-size: 25px;
+    padding-top: 30px;
+    padding-left: 90px;
+    
+}
+
+.playlist-spotify {
+    width: 100%;
+    padding-left: 40px;
+    padding-right: 40px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    display: flex;
+    flex-direction: row;
+    position: left;
+}
+
+.playlist-spotify > .playlist-all4you-spotify {
+    width: 50%;
+    height: 100%;
+    padding-right: 20px;
+}
+
+.playlist-spotify > .playlist-wrshit-spotify {
+    width: 50%;
+    height: 100%;
+    padding-left: 20px;
+    
+}
+
+.playlist-applemusic {
+    width: 100%;
+    padding-top: 30px;
+    padding-left: 40px;
+    padding-right: 40px;
+    
+    
+}
+
+.playlist-spotify > .playlist-all4you-applemusic {
+    width: 100%;
+    height: 100%;
+}
+
+/* top 5 canciones (lista de canciones por banda) */
+.list-song {
+    padding-top: 50px;
+    padding-bottom: 50px;
+    background-color: #000000;
+    padding-left: 60px;
+}
+
+.list-song h3 {
+    color:khaki;
+    font-size: 50px;
+    margin-left: 10px;
+    padding-top: 50px;
+    padding-bottom: 30px;
+}
+
+.list-of-songs {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: left;
+    padding-left: 70px;
+    margin-top: 80px;
+    margin-bottom: 80px;
+}
+
+.picture-album img {
+    width: 180px;
+    margin-right: 50px;
+    border-radius: 7px;
+    box-shadow: 0 15px 35px #000000a1;
+    transition: all aese 0.4s;
+}
+
+.info-song {
+    text-align: left;
+    padding: 15px 0;
+    max-width: 620px;
+    min-width: 520px;
+}
+
+.info-song h4 {
+    font-size: 35px;
+    padding-top: 1px;
+    padding-bottom: 5px;
+    color: rgb(255, 255, 255);
+    border-bottom: 2px solid black;
+    text-align: left;
+}
+
+.info-song p:nth-child(2) {
+    font-size: 20px;
+    color: rgb(255, 255, 255);
+    padding-top: 1px;
+    padding-bottom: 20px;
+    text-shadow: 1px 1px 1px black;
+    
+}
+
+.info-song .audio {
+    color: lightcyan;
+    
+}
+
+
+
+/*MUSICAMUSICAMUSICAMUSICAMUSICAMUSICA*/
+
+/* GRADY */
+.banner-supergrady {
+    padding-bottom: 150px;
+    background-image: url(imagenes/portadasdifuminadas/supergradyborroso.png);
+    background-position: center;
+    background-size: cover;
+}
+
+.banner-supergrady > .contenedor {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: left;
+}
+
+.detalles-supergrady {
+    text-align: left;
+    padding: 15px 0;
+    max-width: 570px;
+    
+}
+
+.detalles-supergrady h1 {
+    font-size: 150px;
+    color: rgb(122, 255, 246);
+    padding-top: 100px;
+    padding-bottom: 50px;
+    margin-left: 50px;
+}
+
+.detalles-supergrady p {
+    font-size: 25px;
+    color: rgb(246, 255, 144);
+    margin-left: 50px;
+}
+
+.foto-supergrady {
+    width: 100%;
+    max-width: 600px;
+    padding-top: 80px;
+    padding-left: 100px;
+    
+}
+
+.foto-supergrady img {
+    width: 480px;
+    border-radius: 6px;
+    box-shadow: 0 55px 65px #353535a1;
+    transition: all aese 0.4s;
+}
+
+.informacion-artista {
+    background:rgb(211, 138, 2);
+    height: auto;
+    width: 100%;
+    color: white;
+    padding-top: 55px;
+    padding-bottom: 55px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+.redes-artista p {
+    font-size: 25px;
+    color: white;
+    margin-bottom: 35px;
+    padding-left: 50px;
+    padding-right: 50px;
+}
+
+.socials-artista {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+}
+
+.link-plataforma-artista {
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 1rem 0 3rem 0;
+}
+
+.link-plataforma-artista li {
+    margin: 0 45px;
+}
+
+.link-plataforma-artista a {
+    text-decoration: none;
+    color: white;
+}
+
+.link-plataforma-artista a i {
+    font-size: 40px;
+    transition: color .1s ease;
+}
+
+.link-plataforma-artista a:hover i {
+    color: #000000;
+}
+
+/*PRELOWPRELOWPRELOW*/
+
+.banner-prelow {
+    padding-bottom: 150px;
+    background-image: url(imagenes/portadasdifuminadas/prelowDifuminado.png);
+    background-position: center;
+    background-size: cover;
+    
+}
+
+.banner-prelow > .contenedor {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: left;
+}
+
+.detalles-prelow {
+    text-align: left;
+    padding: 15px 0;
+    max-width: 570px;
+    
+}
+
+.detalles-prelow h1 {
+    font-size: 150px;
+    color: rgb(137, 243, 255);
+    padding-top: 150px;
+    padding-bottom: 50px;
+    margin-left: 50px;
+}
+
+.detalles-prelow p {
+    font-size: 25px;
+    color: rgb(255, 255, 255);
+    margin-left: 50px;
+}
+
+.foto-prelow {
+    width: 100%;
+    max-width: 600px;
+    padding-top: 200px;
+    padding-left: 80px;
+    
+}
+
+.foto-prelow img {
+    width: 480px;
+    border-radius: 6px;
+    box-shadow: 0 45px 65px #3f3d3da1;
+    transition: all aese 0.4s;
+}
+
+.video-artista {
+    width: 100%;
+    
+    background-color: rgb(172, 98, 0);
+    ;
+}
+
+.video-artista .video {
+    padding-left: 300px;
+    padding-right: 300px;
+    padding-top: 100px;
+}
+
+
+/* prelow x skizzy mars */
+.list-song p {
+    color:rgb(255, 101, 101);
+    font-size: 25px;
+    margin-left: 10px;
+    padding-bottom: 30px;
+}
+
+.list-song a {
+    color:rgb(255, 101, 101);
+    font-size: 25px;
+    margin-left: 10px;
+    padding-bottom: 30px;
+}
+
+/* THEPALMS THEPALMS THEPALMS THEPALMS */
+
+.banner-thepalms {
+    padding-bottom: 150px;
+    background-image: url(imagenes/portadasdifuminadas/thepalmsborroso.png);
+    background-position: center;
+    background-size: cover;
+    
+}
+
+.banner-thepalms > .contenedor {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: left;
+}
+
+.detalles-thepalms {
+    text-align: left;
+    padding: 15px 0;
+    max-width: 570px;
+  
+}
+
+.detalles-thepalms h1 {
+    font-size: 150px;
+    color: rgb(255, 226, 10);
+    padding-top: 100px;
+    padding-bottom: 50px;
+    margin-left: 50px;
+}
+
+.detalles-thepalms p {
+    font-size: 25px;
+    color: rgb(87, 149, 216);
+    margin-left: 50px;
+}
+
+.foto-thepalms {
+    width: 100%;
+    max-width: 600px;
+    padding-top: 200px;
+    padding-left: 100px;
+    
+}
+
+.foto-thepalms img {
+    width: 480px;
+    border-radius: 6px;
+    box-shadow: 0 55px 65px #353535a1;
+    transition: all aese 0.4s;
+}
+
+.informacion-artista {
+    background:rgb(211, 138, 2);
+    height: auto;
+    width: 100%;
+    color: white;
+    padding-top: 55px;
+    padding-bottom: 55px;
+    margin-bottom: 5px;
+}
+
+.redes-artista p {
+    font-size: 25px;
+    color: white;
+    margin-bottom: 35px;
+    padding-left: 50px;
+    padding-right: 50px;
+}
+
+.socials-artista {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+}
+
+.link-plataforma-artista {
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 1rem 0 3rem 0;
+}
+
+.link-plataforma-artista li {
+    margin: 0 45px;
+}
+
+.link-plataforma-artista a {
+    text-decoration: none;
+    color: white;
+}
+
+.link-plataforma-artista a i {
+    font-size: 40px;
+    transition: color .1s ease;
+}
+
+.link-plataforma-artista a:hover i {
+    color: #000000;
+}
+
+/* BADSUNS BADSUNS BADSUNS BADSUNS */
+
+
+.banner-badsuns {
+    padding-bottom: 150px;
+    background-image: url(imagenes/portadasdifuminadas/badsunsdif.png);
+    background-position: center;
+    background-size: cover;
+    
+}
+
+.banner-badsuns > .contenedor {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: left;
+}
+
+.detalles-badsuns {
+    text-align: left;
+    padding: 15px 0;
+    max-width: 570px;
+    
+}
+
+.detalles-badsuns h1 {
+    font-size: 150px;
+    color: rgb(205, 213, 59);
+    padding-top: 100px;
+    padding-bottom: 50px;
+    margin-left: 50px;
+}
+
+.detalles-badsuns p {
+    font-size: 25px;
+    color: rgb(0, 0, 0);
+    margin-left: 50px;
+}
+
+.foto-badsuns {
+    width: 100%;
+    max-width: 570px;
+    padding-top: 150px;
+    padding-left: 60px;
+}
+
+.foto-badsuns img {
+    width: 440px;
+    border-radius: 6px;
+    box-shadow: 0 45px 65px #000000a1;
+    transition: all aese 0.4s;
+}
+
+
+/* COLONYHOUSE COLONYHOUSE COLONYHOUSE COLONYHOUSE */
+
+.banner-colonyhouse {
+    padding-bottom: 150px;
+    background-image: url(imagenes/portadasdifuminadas/colonyhousedif.png);
+    background-position: center;
+    background-size: cover;
+    
+}
+
+.banner-colonyhouse > .contenedor {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: left;
+}
+
+.detalles-colonyhouse {
+    text-align: left;
+    padding: 15px 0;
+    max-width: 570px;
+    
+}
+
+.detalles-colonyhouse h1 {
+    font-size: 150px;
+    color: rgb(0, 0, 0);
+    padding-top: 100px;
+    padding-bottom: 50px;
+    margin-left: 50px;
+}
+
+.detalles-colonyhouse p {
+    font-size: 25px;
+    color: rgb(0, 0, 0);
+    margin-left: 50px;
+}
+
+.foto-colonyhouse {
+    width: 100%;
+    max-width: 570px;
+    padding-top: 150px;
+    padding-left: 140px;
+}
+
+.foto-colonyhouse img {
+    width: 450px;
+    border-radius: 6px;
+    box-shadow: 0 45px 65px #000000a1;
+    transition: all aese 0.4s;
+}
+
+/* VACATIONS VACATIONS VACATIONS VACATIONS VACATIONS */
+
+.banner-vacations {
+    padding-bottom: 150px;
+    background-image: url(imagenes/portadasdifuminadas/vacationsdiff.png);
+    background-position: center;
+    background-size: cover;
+    
+}
+
+.banner-vacations > .contenedor {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: left;
+}
+
+.detalles-vacations {
+    text-align: left;
+    padding: 15px 0;
+    max-width: 600px;
+    
+}
+
+.detalles-vacations h1 {
+    font-size: 130px;
+    color: rgb(234, 232, 219);
+    padding-top: 100px;
+    padding-bottom: 50px;
+    margin-left: 50px;
+}
+
+.detalles-vacations p {
+    font-size: 25px;
+    color: rgb(0, 0, 0);
+    margin-left: 100px;
+}
+
+.foto-vacations {
+    width: 100%;
+    max-width: 570px;
+    padding-top: 120px;
+    padding-left: 100px;
+}
+
+.foto-vacations img {
+    width: 450px;
+    border-radius: 6px;
+    box-shadow: 0 45px 65px #000000a1;
+    transition: all aese 0.4s;
+}
+
+
+/* HALNOISE HALFNOISE HALFNOISE HALFNOISE */
+
+.banner-halfnoise {
+    padding-bottom: 150px;
+    background-image: url(imagenes/portadasdifuminadas/halfnoiseDif.jpg);
+    background-position: center;
+    background-size: cover;
+    
+}
+
+.banner-halfnoise > .contenedor {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: left;
+}
+
+.detalles-halfnoise {
+    text-align: left;
+    padding: 15px 0;
+    max-width: 570px;
+}
+
+.detalles-halfnoise h1 {
+    font-size: 120px;
+    color: rgb(101, 195, 246);
+    padding-top: 100px;
+    padding-bottom: 50px;
+    margin-left: 50px;
+}
+
+.detalles-halfnoise p {
+    font-size: 25px;
+    color: rgb(0, 0, 0);
+    margin-left: 50px;
+}
+
+.detalles-halfnoise a {
+    font-size: 25px;
+    color: rgb(0, 0, 0);
+}
+
+.foto-halfnoise {
+    width: 100%;
+    max-width: 570px;
+    padding-top: 150px;
+    padding-left: 100px;
+}
+
+.foto-halfnoise img {
+    width: 450px;
+    border-radius: 8px;
+    box-shadow: 0 65px 85px #000000a1;
+    transition: all aese 0.4s;
+}
+
+
+/* Pepper rabbit */
+.banner-pepperrabbit {
+    padding-bottom: 150px;
+    background-image: url(imagenes/portadasdifuminadas/pepperrabbitdif.png);
+    background-position: center;
+    background-size: cover;
+}
+
+.banner-pepperrabbit > .contenedor {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: left;
+}
+
+.detalles-pepperrabbit {
+    text-align: left;
+    padding: 15px 0;
+    max-width: 570px;
+}
+
+.detalles-pepperrabbit h1 {
+    font-size: 130px;
+    color: rgb(254, 203, 0);
+    padding-top: 100px;
+    padding-bottom: 50px;
+    margin-left: 50px;
+}
+
+.detalles-pepperrabbit p {
+    font-size: 25px;
+    color: rgb(201, 237, 178);
+    margin-left: 50px;
+}
+
+.detalles-pepperrabbit a {
+    font-size: 25px;
+    color: rgb(254, 203, 0);
+}
+
+.foto-pepperrabbit {
+    width: 100%;
+    max-width: 600px;
+    padding-top: 230px;
+    padding-left: 60px;
+}
+
+.foto-pepperrabbit img {
+    width: 480px;
+    border-radius: 8px;
+    box-shadow: 0 55px 75px #000000a1;
+}
+
+/* petite league */
+.banner-petiteleague {
+    padding-bottom: 150px;
+    background-image: url(imagenes/portadasdifuminadas/petitedif.png);
+    background-position: center;
+    background-size: cover;
+}
+
+.banner-petiteleague > .contenedor {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: left;
+}
+
+.detalles-petiteleague {
+    text-align: left;
+    padding: 15px 0;
+    max-width: 570px;
+}
+
+.detalles-petiteleague h1 {
+    font-size: 130px;
+    color: rgb(201, 255, 93);
+    padding-top: 100px;
+    padding-bottom: 50px;
+    margin-left: 50px;
+}
+
+.detalles-petiteleague p {
+    font-size: 25px;
+    color: rgb(128, 249, 255);
+    margin-left: 50px;
+}
+
+.foto-petiteleague {
+    width: 100%;
+    max-width: 600px;
+    padding-top: 220px;
+    padding-left: 60px;
+}
+
+.foto-petiteleague img {
+    width: 480px;
+    border-radius: 8px;
+    box-shadow: 0 55px 75px #000000a1;
+}
+
+/* KNOX HAMILTON */
+.banner-knoxhamilton {
+    padding-bottom: 150px;
+    background-image: url(imagenes/portadasdifuminadas/knoxDif.png);
+    background-position: center;
+    background-size: cover;
+}
+
+.banner-knoxhamilton > .contenedor {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: left;
+}
+
+.detalles-knoxhamilton {
+    text-align: left;
+    padding: 15px 0;
+    max-width: 570px;
+}
+
+.detalles-knoxhamilton h1 {
+    font-size: 130px;
+    color: rgb(92, 183, 252);
+    padding-top: 100px;
+    padding-bottom: 50px;
+    margin-left: 50px;
+}
+
+.detalles-knoxhamilton p {
+    font-size: 25px;
+    color: rgb(254, 239, 70);
+    margin-left: 50px;
+}
+
+.foto-knoxhamilton {
+    width: 100%;
+    max-width: 600px;
+    padding-top: 180px;
+    padding-left: 60px;
+}
+
+.foto-knoxhamilton img {
+    width: 450px;
+    border-radius: 8px;
+    box-shadow: 0 55px 75px #000000a1;
+}
+
+/* FUR MUSIC */
+.banner-fur {
+    padding-bottom: 150px;
+    background-image: url(imagenes/portadasdifuminadas/furdif.png);
+    background-position: center;
+    background-size: cover;
+}
+
+.banner-fur > .contenedor {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: left;
+}
+
+.detalles-fur {
+    text-align: left;
+    padding: 15px 0;
+    max-width: 570px;
+}
+
+.detalles-fur h1 {
+    font-size: 130px;
+    color: rgb(28, 157, 255);
+    padding-top: 100px;
+    padding-bottom: 50px;
+    margin-left: 50px;
+}
+
+.detalles-fur p {
+    font-size: 25px;
+    color: rgb(0, 0, 0);
+    margin-left: 50px;
+}
+
+.foto-fur {
+    width: 100%;
+    max-width: 600px;
+    padding-top: 100px;
+    padding-left: 50px;
+}
+
+.foto-fur img {
+    width: 450px;
+    border-radius: 8px;
+    box-shadow: 0 55px 75px #000000a1;
+}
+
+/* REAPER MUSIC */
+.banner-reaper {
+    padding-bottom: 150px;
+    background-image: url(imagenes/portadasdifuminadas/reaperdif.png);
+    background-position: center;
+    background-size: cover;
+}
+
+.banner-reaper > .contenedor {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: left;
+}
+
+.detalles-reaper {
+    text-align: left;
+    padding: 15px 0;
+    max-width: 570px;
+}
+
+.detalles-reaper h1 {
+    font-size: 130px;
+    color: rgb(255, 238, 47);
+    padding-top: 100px;
+    padding-bottom: 50px;
+    margin-left: 50px;
+}
+
+.detalles-reaper p {
+    font-size: 25px;
+    color: rgb(0, 0, 0);
+    margin-left: 50px;
+}
+
+.foto-reaper {
+    width: 100%;
+    max-width: 600px;
+    padding-top: 150px;
+    padding-left: 50px;
+}
+
+.foto-reaper img {
+    width: 450px;
+    border-radius: 8px;
+    box-shadow: 0 55px 75px #000000a1;
+}
+
+/* FRILLS MUSIC */
+.banner-frills {
+    padding-bottom: 150px;
+    background-image: url(imagenes/portadasdifuminadas/frillsdif.png);
+    background-position: center;
+    background-size: cover;
+}
+
+.banner-frills > .contenedor {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: left;
+}
+
+.detalles-frills {
+    text-align: left;
+    padding: 15px 0;
+    max-width: 570px;
+}
+
+.detalles-frills h1 {
+    font-size: 130px;
+    color: rgb(0, 221, 255);
+    padding-top: 100px;
+    padding-bottom: 50px;
+    margin-left: 50px;
+}
+
+.detalles-frills p {
+    font-size: 25px;
+    color: rgb(255, 230, 44);
+    margin-left: 50px;
+}
+
+.foto-frills {
+    width: 100%;
+    max-width: 600px;
+    padding-top: 150px;
+    padding-left: 50px;
+}
+
+.foto-frills img {
+    width: 450px;
+    border-radius: 8px;
+    box-shadow: 0 55px 75px #000000a1;
+}
+
+/* Grand Lotus */
+
+.banner-grandlotus {
+    padding-bottom: 150px;
+    background-image: url(imagenes/portadasdifuminadas/grandlotusdif.png);
+    background-position: center;
+    background-size: cover;
+    
+}
+
+.banner-grandlotus > .contenedor {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: left;
+}
+
+.detalles-grandlotus {
+    text-align: left;
+    padding: 15px 0;
+    max-width: 570px;
+  
+}
+
+.detalles-grandlotus h1 {
+    font-size: 150px;
+    color: rgb(255, 255, 118);
+    padding-top: 100px;
+    padding-bottom: 50px;
+    margin-left: 50px;
+}
+
+.detalles-grandlotus p {
+    font-size: 25px;
+    color: rgb(255, 120, 120);
+    margin-left: 50px;
+}
+
+.foto-grandlotus {
+    width: 100%;
+    max-width: 600px;
+    padding-top: 200px;
+    padding-left: 100px;
+    
+}
+
+.foto-grandlotus img {
+    width: 480px;
+    border-radius: 6px;
+    box-shadow: 0 55px 65px #353535a1;
+    transition: all aese 0.4s;
+}
+
+.informacion-artista {
+background:rgb(211, 138, 2);
+height: auto;
+width: 100%;
+color: white;
+padding-top: 55px;
+padding-bottom: 55px;
+margin-bottom: 5px;
+}
+
+.redes-artista p {
+    font-size: 25px;
+    color: white;
+    margin-bottom: 35px;
+    padding-left: 50px;
+    padding-right: 50px;
+}
+
+.socials-artista {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+}
+
+.link-plataforma-artista {
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 1rem 0 3rem 0;
+}
+
+.link-plataforma-artista li {
+    margin: 0 45px;
+}
+
+.link-plataforma-artista a {
+    text-decoration: none;
+    color: white;
+}
+
+.link-plataforma-artista a i {
+    font-size: 40px;
+    transition: color .1s ease;
+}
+
+.link-plataforma-artista a:hover i {
+    color: #000000;
+}
+
+ /* skizzy mars */
+ .banner-skizzyMars {
+    padding-bottom: 150px;
+    background-image: url(imagenes/portadasdifuminadas/skizzydiff.png);
+    background-position: center;
+    background-size: cover;
+    
+}
+
+.banner-skizzyMars > .contenedor {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: left;
+}
+
+.detalles-skizzyMars {
+    text-align: left;
+    padding: 15px 0;
+    max-width: 570px;
+    
+}
+
+.detalles-skizzyMars h1 {
+    font-size: 150px;
+    color: rgb(205, 213, 59);
+    padding-top: 100px;
+    padding-bottom: 50px;
+    margin-left: 50px;
+}
+
+.detalles-skizzyMars p {
+    font-size: 25px;
+    color: rgb(216, 216, 216);
+    margin-left: 50px;
+}
+
+.detalles-skizzyMars a {
+    font-size: 25px;
+    color: rgb(210, 171, 171);
+}
+
+.foto-skizzyMars {
+    width: 100%;
+    max-width: 570px;
+    padding-top: 180px;
+    padding-left: 60px;
+}
+
+.foto-skizzyMars img {
+    width: 440px;
+    border-radius: 6px;
+    box-shadow: 0 45px 65px #000000a1;
+    transition: all aese 0.4s;
+}
+
+/* fuller */
+.banner-fuller {
+    padding-bottom: 150px;
+    background-image: url(imagenes/portadasdifuminadas/fullerDiff.png);
+    background-position: center;
+    background-size: cover;
+    
+}
+
+.banner-fuller > .contenedor {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: left;
+}
+
+.detalles-fuller {
+    text-align: left;
+    padding: 15px 0;
+    max-width: 570px;
+    
+}
+
+.detalles-fuller h1 {
+    font-size: 150px;
+    color: rgb(244, 249, 143);
+    padding-top: 100px;
+    padding-bottom: 50px;
+    margin-left: 50px;
+}
+
+.detalles-fuller p {
+    font-size: 25px;
+    color: rgb(172, 254, 255);
+    margin-left: 50px;
+}
+
+.foto-fuller {
+    width: 100%;
+    max-width: 570px;
+    padding-top: 100px;
+    padding-left: 60px;
+}
+
+.foto-fuller img {
+    width: 440px;
+    border-radius: 6px;
+    box-shadow: 0 45px 65px #000000a1;
+    transition: all aese 0.4s;
+}
+
+/* COIN */
+.banner-coin {
+    padding-bottom: 150px;
+    background-image: url(imagenes/portadasdifuminadas/coindiff.png);
+    background-position: center;
+    background-size: cover;
+    
+}
+
+.banner-coin > .contenedor {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: left;
+}
+
+.detalles-coin {
+    text-align: left;
+    padding: 15px 0;
+    max-width: 570px;
+    
+}
+
+.detalles-coin h1 {
+    font-size: 150px;
+    color: rgb(143, 249, 168);
+    padding-top: 100px;
+    padding-bottom: 50px;
+    margin-left: 50px;
+}
+
+.detalles-coin p {
+    font-size: 25px;
+    color: rgb(186, 247, 112);
+    margin-left: 50px;
+}
+
+.foto-coin {
+    width: 100%;
+    max-width: 570px;
+    padding-top: 100px;
+    padding-left: 60px;
+}
+
+.foto-coin img {
+    width: 440px;
+    border-radius: 6px;
+    box-shadow: 0 45px 65px #000000a1;
+    transition: all aese 0.4s;
+}
+
+
+/* NONA */
+.banner-nona {
+    padding-bottom: 150px;
+    background-image: url(imagenes/portadasdifuminadas/nonadiff.png);
+    background-position: center;
+    background-size: cover;
+    
+}
+
+.banner-nona > .contenedor {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: left;
+}
+
+.detalles-nona {
+    text-align: left;
+    padding: 15px 0;
+    max-width: 570px;
+    
+}
+
+.detalles-nona h1 {
+    font-size: 150px;
+    color: rgb(249, 245, 118);
+    padding-top: 100px;
+    padding-bottom: 50px;
+    margin-left: 50px;
+}
+
+.detalles-nona p {
+    font-size: 25px;
+    color: rgb(112, 247, 234);
+    margin-left: 50px;
+}
+
+.foto-nona {
+    width: 100%;
+    max-width: 570px;
+    padding-top: 120px;
+    padding-left: 60px;
+}
+
+.foto-nona img {
+    width: 440px;
+    border-radius: 6px;
+    box-shadow: 0 45px 65px #000000a1;
+    transition: all aese 0.4s;
+}
+
+/* Middle Part */
+.banner-middlePart {
+    padding-bottom: 150px;
+    background-image: url(imagenes/portadasdifuminadas/middlePartdiff.png);
+    background-position: center;
+    background-size: cover;
+    
+}
+
+.banner-middlePart > .contenedor {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: left;
+}
+
+.detalles-middlePart {
+    text-align: left;
+    padding: 15px 0;
+    max-width: 570px;
+    
+}
+
+.detalles-middlePart h1 {
+    font-size: 150px;
+    color: rgb(249, 245, 118);
+    padding-top: 100px;
+    padding-bottom: 50px;
+    margin-left: 50px;
+}
+
+.detalles-middlePart p {
+    font-size: 25px;
+    color: rgb(112, 247, 234);
+    margin-left: 50px;
+}
+
+.foto-middlePart {
+    width: 100%;
+    max-width: 570px;
+    padding-top: 200px;
+    padding-left: 60px;
+}
+
+.foto-middlePart img {
+    width: 440px;
+    border-radius: 6px;
+    box-shadow: 0 45px 65px #000000a1;
+    transition: all aese 0.4s;
+}
+
+
